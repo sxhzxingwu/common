@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme1">#31af00</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#EEEE00</color>
+
+    <color name="color_393a3f">#393a3f</color>
+    <color name="separator_color">#ffe2e2e2</color>
+    <color name="color_ededed">#ededed</color>
+    <color name="color_f2b56a">#f2b56a</color>
+    <color name="color_ddc0e2">#DDC0e2</color>
+    <color name="color_d3f1c9">#d3f1c9</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_c5d499">#c5d499</color>
+    <color name="color_51b9e9">#51b9e9</color>
+    <color name="color_515151">#515151</color>
+    <color name="color_cce7cc">#cce7cc</color>
+</resources>

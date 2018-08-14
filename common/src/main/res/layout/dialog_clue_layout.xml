@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.weici.common.widget.WRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    vc:background="@android:color/white"
+    vc:radius="5dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/message"
+        android:background="@drawable/bg_roundcorner_bottom_gray"
+        android:paddingTop="0.5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/negativeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_press_left_bottom"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/neutralButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:background="@drawable/selector_btn_press_no_corner" />
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:layout_marginLeft="0.5dp"
+            android:background="@drawable/selector_btn_press_right_bottom"/>
+        <com.android.weici.common.widget.WButton
+            android:id="@+id/centerButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="13dp"
+            android:layout_marginLeft="0.5dp"
+            vc:radius_l_u="0dp"
+            vc:radius_l_d="5dp"
+            vc:radius_r_u="0dp"
+            vc:radius_r_d="5dp"
+            vc:background="@color/white"
+            vc:ripple_color="#ffe2e2e2"/>
+    </LinearLayout>
+
+</com.android.weici.common.widget.WRelativeLayout>

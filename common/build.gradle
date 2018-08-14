@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26+'
+    compile files('libs/glide-3.7.0.jar')
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile files('libs/systembartint-1.0.4.jar')
+    compile files('libs/zip4j_1.3.2.jar')
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.umeng.sdk:common:1.4.4'
+    compile 'com.umeng.sdk:analytics:7.4.4'
+    //https://github.com/wasabeef/Blurry
+    compile 'jp.wasabeef:blurry:2.1.1'
+    implementation 'com.google.code.gson:gson:2.7'
+    compile 'com.android.support.constraint:constraint-layout:1.1.2'
+}

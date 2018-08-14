@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VUITitleBar">
+        <attr name="vui_titlebar_need_serprator" format="boolean" />
+        <attr name="vui_titlebar_separator_color" format="color" />
+        <attr name="vui_titlebar_separator_height" format="dimension"/>
+        <attr name="vui_titlebar_bg_color" format="color"/>
+        <attr name="vui_titlebar_left_back_drawable_id" format="reference"/>
+        <attr name="vui_titlebar_title" format="string|reference"/>
+        <attr name="vui_titlebar_left_back" format="reference"/>
+        <attr name="vui_titlebar_right_btn_img" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="VUIRoundAlphaButton">
+        <attr name="bg_color" format="color" />
+        <attr name="radio" format="dimension" />
+    </declare-styleable>
+
+
+    <attr name="vui_titlebar_title_color" format="color"/>
+    <attr name="VUITitleBarStyle" format="reference" />
+    <attr name="vui_titlebar_image_btn_width" format="dimension" />
+    <attr name="vui_titlebar_image_btn_height" format="dimension" />
+    <attr name="vui_titlebar_subtitle_text_size" format="dimension" />
+    <attr name="vui_titlebar_subtitle_color" format="color" />
+    <attr name="vui_titlebar_title_text_size_with_subtitle" format="dimension" />
+    <attr name="vui_titlebar_text_size" format="dimension" />
+    <attr name="vui_titlebar_text_color" format="color" />
+    <attr name="vui_titlebar_height" format="dimension"/>
+    <attr name="vui_ttitlebar_title_margin_horizontal_when_no_btn_aside" format="dimension"/>
+    <attr name="vui_titlebar_text_btn_color_state_list" format="color" />
+
+
+    <!-- info -->
+    <attr name="vui_info_width" format="dimension" />
+    <attr name="vui_info_height" format="dimension" />
+    <attr name="vui_load_text_color" format="color" />
+    <attr name="vui_load_text_size" format="dimension" />
+    <attr name="vui_info_text_color" format="color" />
+    <attr name="vui_info_text_size" format="dimension" />
+
+    <attr name="vui_alpha_disabled" format="float" />
+    <attr name="vui_alpha_pressed" format="float" />
+
+
+    <!--**********************************************
+   *              vui bottom sheet                 *
+   **********************************************-->
+    <attr name="vui_bottom_sheet_title_height" format="dimension"/>
+    <attr name="vui_bottom_sheet_title_appearance" format="reference"/>
+    <attr name="vui_bottom_sheet_title_bg" format="reference"/>
+
+    <attr name="vui_bottom_sheet_list_item_padding_horizontal" format="dimension"/>
+    <attr name="vui_bottom_sheet_list_item_height" format="dimension"/>
+    <attr name="vui_bottom_sheet_list_item_mark_margin_left" format="dimension"/>
+    <attr name="vui_bottom_sheet_list_item_tip_point_margin_left" format="dimension"/>
+    <attr name="vui_bottom_sheet_list_item_text_appearance" format="reference"/>
+    <attr name="vui_bottom_sheet_list_item_bg" format="reference"/>
+    <attr name="vui_bottom_sheet_list_item_icon_size" format="dimension"/>
+    <attr name="vui_bottom_sheet_list_item_icon_margin_right" format="dimension"/>
+
+    <attr name="vui_bottom_sheet_grid_padding_vertical" format="dimension"/>
+    <attr name="vui_bottom_sheet_grid_line_padding_horizontal" format="dimension"/>
+    <attr name="vui_bottom_sheet_grid_line_vertical_space" format="dimension"/>
+
+    <attr name="vui_bottom_sheet_grid_item_mini_width" format="dimension"/>
+    <attr name="vui_bottom_sheet_grid_item_icon_size" format="dimension"/>
+    <attr name="vui_bottom_sheet_grid_item_text_appearance" format="reference"/>
+
+    <attr name="vui_bottom_sheet_button_height" format="dimension"/>
+    <attr name="vui_bottom_sheet_button_text_size" format="dimension"/>
+    <attr name="vui_bottom_sheet_button_text_color" format="reference"/>
+    <attr name="vui_bottom_sheet_button_text_background" format="reference"/>
+
+    <!--**********************************************
+    *             vui list item bg                  *
+    **********************************************-->
+    <attr name="vui_list_item_height" format="dimension"/>
+    <attr name="vui_list_item_height_higher" format="dimension"/>
+
+    <attr name="vui_icon_check_mark" format="reference"/>
+
+    <!--**********************************************
+   *             vuiRoundAlphaButton                *
+   **********************************************-->
+
+    <declare-styleable name="VUICornerView">
+        <attr name="corner" format="dimension" />
+    </declare-styleable>
+
+    <!--**********************************************
+   *                  vui popup                    *
+   ***********************************************-->
+    <attr name="vui_popup_bg" format="reference"/>
+    <attr name="vui_popup_arrow_down" format="reference"/>
+    <attr name="vui_popup_arrow_up" format="reference"/>
+    <attr name="vui_popup_arrow_up_margin_top" format="dimension"/> <!-- 一般与vui_popup_bg上阴影相等 -->
+    <attr name="vui_popup_arrow_down_margin_bottom" format="dimension"/> <!-- 一般与vui_popup_bg下阴影相等 -->
+
+    <!-- action -->
+    <attr name="vui_dialog_action_container_margin_bottom" format="dimension"/>
+    <attr name="vui_dialog_action_container_margin_horizontal" format="dimension"/>
+    <attr name="vui_dialog_action_button_min_width" format="dimension"/>
+    <attr name="vui_dialog_action_button_height" format="dimension"/>
+    <attr name="vui_dialog_action_button_margin_left" format="dimension"/>
+    <attr name="vui_dialog_action_drawable_padding" format="dimension"/>
+    <attr name="vui_dialog_action_button_text_size" format="dimension"/>
+    <attr name="vui_dialog_action_button_padding_horizontal" format="dimension"/>
+
+    <attr name="vui_dialog_action_block_container_margin_bottom" format="dimension"/>
+    <attr name="vui_dialog_action_block_btn_height" format="dimension"/>
+    <attr name="vui_dialog_action_btn_bg" format="reference"/>
+    <attr name="vui_dialog_action_block_btn_bg" format="reference"/>
+    <attr name="vui_dialog_action_text_negative_color" format="reference"/>
+    <attr name="vui_dialog_action_text_color" format="reference"/>
+    <attr name="vui_dialog_edittext_background" format="reference"/>
+
+    <!--**********************************************
+   *                qmui dialog                     *
+   **********************************************-->
+    <attr name="vui_dialog_margin_horizontal" format="dimension"/>
+    <attr name="vui_dialog_min_width" format="dimension"/>
+    <attr name="vui_dialog_bg" format="reference"/>
+    <attr name="vui_dialog_margin_vertical" format="dimension"/>
+    <attr name="vui_dialog_padding_horizontal" format="dimension"/>
+
+    <!-- title -->
+    <attr name="vui_dialog_title_text_color" format="color"/>
+    <attr name="vui_dialog_title_margin_top" format="dimension"/>
+    <attr name="vui_dialog_title_text_size" format="dimension"/>
+
+    <!-- content -->
+    <attr name="vui_dialog_content_padding_top" format="dimension"/>
+    <attr name="vui_dialog_content_padding_top_when_no_title" format="dimension"/>
+    <attr name="vui_dialog_content_padding_top_when_list" format="dimension"/>
+    <attr name="vui_dialog_content_padding_bottom" format="dimension"/>
+    <attr name="vui_dialog_content_padding_bottom_when_no_action" format="dimension"/>
+    <attr name="vui_dialog_content_padding_bottom_when_action_block" format="dimension"/>
+    <attr name="vui_dialog_content_message_text_size" format="dimension"/>
+    <attr name="vui_dialog_content_list_item_height" format="dimension"/>
+    <attr name="vui_dialog_content_list_item_text_size" format="dimension"/>
+    <attr name="vui_dialog_content_list_item_bg" format="reference"/>
+    <attr name="vui_dialog_confirm_content_padding_top" format="dimension"/>
+    <attr name="vui_dialog_confirm_content_padding_bottom" format="dimension"/>
+    <attr name="vui_dialog_edit_content_padding_top" format="dimension"/>
+    <attr name="vui_dialog_edit_content_padding_bottom" format="dimension"/>
+    <attr name="vui_dialog_block_content_text_size" format="dimension"/>
+
+    <attr name="vui_dialog_menu_item_text_color" format="color"/>
+
+    <declare-styleable name="vui_tab">
+        <attr name="text_color_select" format="color" />
+        <attr name="text_color_default" format="color" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="FancyButtonsAttrs">
+
+        <!-- Default Android attrs -->
+        <attr name="android:enabled" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textAllCaps" />
+
+        <attr name="fb_defaultColor" format="color" />
+        <attr name="fb_text" format="string" />
+
+        <attr name="fb_textColor" format="color" />
+        <attr name="fb_iconColor" format="color" />
+
+        <attr name="fb_textFont" format="string" />
+        <attr name="fb_iconFont" format="string" />
+
+        <attr name="fb_textSize" format="dimension" />
+        <attr name="fb_iconResource" format="reference" />
+        <attr name="fb_fontIconResource" format="string" />
+        <attr name="fb_fontIconSize" format="dimension" />
+        <attr name="fb_iconPosition" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="fb_textPosition" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="fb_textGravity" format="enum">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+            <enum name="center_vertical" value="0x10" />
+            <enum name="fill_vertical" value="0x70" />
+            <enum name="center_horizontal" value="0x01" />
+            <enum name="fill_horizontal" value="0x07" />
+            <enum name="center" value="0x11" />
+            <enum name="fill" value="0x77" />
+            <enum name="clip_vertical" value="0x80" />
+            <enum name="clip_horizontal" value="0x08" />
+            <enum name="start" value="0x00800003" />
+            <enum name="end" value="0x00800005" />
+        </attr>
+
+        <attr name="fb_iconPaddingLeft" format="dimension" />
+        <attr name="fb_iconPaddingRight" format="dimension" />
+        <attr name="fb_iconPaddingTop" format="dimension" />
+        <attr name="fb_iconPaddingBottom" format="dimension" />
+
+        <attr name="fb_radiusTopLeft" format="dimension"/>
+        <attr name="fb_radiusTopRight" format="dimension"/>
+        <attr name="fb_radiusBottomLeft" format="dimension"/>
+        <attr name="fb_radiusBottomRight" format="dimension"/>
+
+        <attr name="fb_borderColor" format="color" />
+        <attr name="fb_borderWidth" format="dimension" />
+        <attr name="fb_focusColor" format="color" />
+        <attr name="fb_disabledColor" format="color" />
+        <attr name="fb_disabledTextColor" format="color" />
+        <attr name="fb_disabledBorderColor" format="color" />
+        <attr name="fb_radius" format="dimension" />
+        <attr name="fb_textAllCaps" format="boolean" />
+        <attr name="fb_ghost" format="boolean" />
+        <attr name="fb_useSystemFont" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="src" format="reference" />
+        <attr name="assetName" format="string" />
+        <attr name="panEnabled" format="boolean" />
+        <attr name="zoomEnabled" format="boolean" />
+        <attr name="quickScaleEnabled" format="boolean" />
+        <attr name="tileBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>

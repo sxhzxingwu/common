@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="vui_titlebar_left_back" type="id" />
+    <item name="vui_titlebar_right_text" type="id" />
+    <item name="vui_titlebar_right_img" type="id" />
+    <item name="scrollview" type="id" />
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+
+
+    <item name="vui_dialog_edit_input" type="id"/>
+    <item name="vui_dialog_edit_right_icon" type="id"/>
+
+    <item name="vui_tab_segment_item_id" type="id"/>
+
+    <item name="vui_view_can_not_cache_tag" type="id"/>
+
+    <item name="vui_topbar_item_left_back" type="id"/>
+
+    <item name="vui_view_offset_helper" type="id"/>
+
+    <item name="expand_view_textview" type="id"/>
+    <item name="expand_view_iconview" type="id"/>
+</resources>

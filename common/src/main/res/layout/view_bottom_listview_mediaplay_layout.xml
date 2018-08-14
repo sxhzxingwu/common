@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/separator_color" />
+
+    <Button
+        android:id="@+id/control"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/icon_list_play" />
+
+    <CheckBox
+        android:id="@+id/sd_open"
+        style="@style/checkbox_play_list"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:checked="true"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/ProgressBar_Mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/sd_open"
+        android:layout_toRightOf="@+id/control"
+        android:progress="0" />
+</merge>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/net_layout"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/net_layout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前为移动网络,播放将消耗流量"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <com.android.weici.common.widget.WButton
+        android:id="@+id/net_layout_btn"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="播放"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:stroke_color="@color/white"
+        app:stroke_width="1dp" />
+</LinearLayout>

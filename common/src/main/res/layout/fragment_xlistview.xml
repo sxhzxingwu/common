@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.weici.common.widget.WcSwipeRefreshLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.weici.common.widget.xlistview.XListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@null"
+        android:listSelector="@drawable/ripple_item_selector" />
+</com.android.weici.common.widget.WcSwipeRefreshLayout>

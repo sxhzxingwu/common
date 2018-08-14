@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <!--<item
+        android:drawable="@drawable/icon_load00"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load01"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load02"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load03"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load04"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load05"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load06"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load07"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load08"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load09"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load10"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load11"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load12"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load13"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load14"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load15"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load16"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load17"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load18"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/icon_load19"
+        android:duration="50"/>-->
+
+</animation-list>

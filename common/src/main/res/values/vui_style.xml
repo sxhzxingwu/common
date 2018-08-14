@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VUITheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/vui_config_color_blue</item>-->
+        <!--<item name="colorPrimaryDark">@color/vui_config_color_blue</item>-->
+        <!--<item name="colorAccent">@color/vui_config_color_blue</item>-->
+
+        <item name="VUITitleBarStyle">@style/titlebar</item>
+        <item name="vui_titlebar_height">48dp</item>
+        <item name="vui_titlebar_text_color">@color/vui_config_color_white</item>
+        <item name="vui_titlebar_image_btn_width">48dp</item>
+        <item name="vui_titlebar_image_btn_height">48dp</item>
+        <item name="vui_titlebar_subtitle_text_size">11sp</item>
+        <item name="vui_titlebar_subtitle_color">@color/vui_config_color_gray_1</item>
+        <item name="vui_titlebar_title_text_size_with_subtitle">16sp</item>
+        <item name="vui_titlebar_text_btn_color_state_list">#656565</item>
+        <item name="vui_titlebar_bg_color">@color/vui_config_color_blue</item>
+        <item name="vui_titlebar_left_back_drawable_id">@drawable/vui_icon_titlebar_back</item>
+        <item name="vui_alpha_pressed">0.5</item>
+        <item name="vui_alpha_disabled">0.5</item>
+
+        <!-- vui bottomsheet -->
+
+        <item name="vui_bottom_sheet_title_height">56dp</item>
+        <item name="vui_bottom_sheet_title_appearance">@style/titlte_color</item>
+        <item name="vui_bottom_sheet_title_bg">@drawable/vui_list_item_bg_with_border_bottom</item>
+        <item name="vui_bottom_sheet_list_item_padding_horizontal">16dp</item>
+        <item name="vui_bottom_sheet_list_item_height">56dp</item>
+        <item name="vui_bottom_sheet_list_item_mark_margin_left">12dp</item>
+        <item name="vui_bottom_sheet_list_item_tip_point_margin_left">4dp</item>
+        <item name="vui_bottom_sheet_list_item_text_appearance">@style/listItem_text_color</item>
+        <item name="vui_bottom_sheet_list_item_bg">@drawable/vui_list_item_bg_with_border_bottom
+        </item>
+        <item name="vui_bottom_sheet_list_item_icon_size">22dp</item>
+        <item name="vui_bottom_sheet_list_item_icon_margin_right">12dp</item>
+
+        <item name="vui_bottom_sheet_grid_padding_vertical">12dp</item>vui_info_width
+        <item name="vui_bottom_sheet_grid_line_padding_horizontal">12dp</item>
+        <item name="vui_bottom_sheet_grid_line_vertical_space">0dp</item>
+        <item name="vui_bottom_sheet_grid_item_mini_width">84dp</item>
+        <item name="vui_bottom_sheet_grid_item_icon_size">56dp</item>
+        <!--<item name="vui_bottom_sheet_grid_item_text_appearance">@style/vuiTextAppearance.GridItem.Small</item>-->
+
+        <item name="vui_bottom_sheet_button_height">56dp</item>
+        <item name="vui_bottom_sheet_button_text_size">15sp</item>
+        <item name="vui_bottom_sheet_button_text_color">@color/vui_config_color_gray_2</item>
+        <item name="vui_bottom_sheet_button_text_background">
+            @drawable/vui_s_list_item_bg_with_border_top
+        </item>
+        <item name="vui_icon_check_mark">@drawable/vui_icon_checkmark</item>
+
+        <item name="android:buttonStyle">@style/VUIButtonStyle</item>
+
+        <!--**********************************************
+        *                   vui popup                   *
+        ***********************************************-->
+        <item name="vui_popup_bg">@drawable/vui_popup_bg</item>
+        <item name="vui_popup_arrow_down">@drawable/vui_popup_arrow_down</item>
+        <item name="vui_popup_arrow_up">@drawable/vui_popup_arrow_up</item>
+        <item name="vui_popup_arrow_up_margin_top">13dp</item>
+        <item name="vui_popup_arrow_down_margin_bottom">13dp</item>
+
+        <item name="vui_info_width">50dp</item>
+        <item name="vui_info_height">50dp</item>
+        <item name="vui_info_text_color">@color/vui_config_color_black</item>
+        <item name="vui_info_text_size">16dp</item>
+        <item name="vui_load_text_color">@color/vui_config_color_black</item>
+        <item name="vui_load_text_size">16dp</item>
+
+        <!-- action -->
+        <item name="vui_dialog_action_container_margin_bottom">12dp</item>
+        <item name="vui_dialog_action_container_margin_horizontal">12dp</item>
+        <item name="vui_dialog_action_button_min_width">64dp</item>
+        <item name="vui_dialog_action_button_height">36dp</item>
+        <item name="vui_dialog_action_button_margin_left">8dp</item>
+        <item name="vui_dialog_action_drawable_padding">6dp</item>
+        <item name="vui_dialog_action_button_text_size">14sp</item>
+        <item name="vui_dialog_action_button_padding_horizontal">12dp</item>
+
+        <item name="vui_dialog_action_block_container_margin_bottom">12dp</item>
+        <item name="vui_dialog_action_block_btn_height">36dp</item>
+
+        <item name="vui_dialog_action_text_negative_color">@color/vui_dialog_action_text_negative_color</item>
+        <item name="vui_dialog_action_text_color">@color/vui_dialog_action_text_color</item>
+        <item name="vui_dialog_action_btn_bg">@drawable/vui_dialog_action_btn_bg</item>
+        <item name="vui_dialog_action_block_btn_bg">@drawable/vui_s_list_item_bg_with_border_none</item>
+
+        <!--**********************************************
+       *                vui dialog                     *
+       **********************************************-->
+        <item name="vui_dialog_margin_horizontal">40dp</item>
+        <item name="vui_dialog_min_width">280dp</item>
+        <item name="vui_dialog_bg">@drawable/vui_dialog_bg</item>
+        <item name="vui_dialog_margin_vertical">20dp</item>
+        <item name="vui_dialog_padding_horizontal">24dp</item>
+
+        <!-- title -->
+        <item name="vui_dialog_title_text_color">@color/vui_config_color_black</item>
+        <item name="vui_dialog_title_margin_top">24dp</item>
+        <item name="vui_dialog_title_text_size">17sp</item>
+
+        <!-- content -->
+        <item name="vui_dialog_content_padding_top">14dp</item>
+        <item name="vui_dialog_content_padding_top_when_no_title">27dp</item>
+        <item name="vui_dialog_content_padding_top_when_list">8dp</item>
+        <item name="vui_dialog_content_padding_bottom">28dp</item>
+        <item name="vui_dialog_content_padding_bottom_when_no_action">8dp</item>
+        <item name="vui_dialog_content_padding_bottom_when_action_block">16dp</item>
+        <item name="vui_dialog_content_message_text_size">16sp</item>
+        <item name="vui_dialog_content_list_item_height">48dp</item>
+        <item name="vui_dialog_content_list_item_text_size">15sp</item>
+        <item name="vui_dialog_content_list_item_bg">@drawable/vui_s_list_item_bg_with_border_none</item>
+        <item name="vui_dialog_confirm_content_padding_top">28dp</item>
+        <item name="vui_dialog_confirm_content_padding_bottom">22dp</item>
+        <item name="vui_dialog_edit_content_padding_top">28dp</item>
+        <item name="vui_dialog_edit_content_padding_bottom">31dp</item>
+        <item name="vui_dialog_block_content_text_size">14sp</item>
+        <item name="vui_dialog_menu_item_text_color">@color/vui_config_color_black</item>
+        <item name="vui_dialog_edittext_background">@drawable/vui_edittext_bg_border_bottom</item>
+
+    </style>
+
+
+    <style name="VUIButtonStyle" parent="@android:style/Widget.Holo.Light.Button"></style>
+
+    <style name="titlebar">
+        <item name="vui_titlebar_separator_color">@color/vui_config_titlebar_seperator_color</item>
+        <item name="vui_titlebar_need_serprator">false</item>
+        <item name="vui_titlebar_separator_height">1px</item>
+    </style>
+
+    <!-- dialog style -->
+    <style name="VUI.BottomSheet" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null
+        </item><!-- 为了避免在有 NavigationBar 的手机上 Dialog 从 NavigationBar 底部上来。去掉 Dialog 的动画，使用 View 的动画。-->
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <style name="titlte_color">
+        <item name="android:textColor">@color/vui_config_color_gray_3</item>
+    </style>
+
+    <style name="listItem_text_color">
+        <item name="android:textColor">@color/vui_s_list_item_text_color</item>
+    </style>
+
+    <style name="TipPoint">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:background">@drawable/vui_tips_point</item>
+    </style>
+
+    <style name="VUI.Animation" parent="@android:style/Animation" />
+
+    <style name="VUI.Animation.PopUpMenu" />
+
+    <style name="VUI.Animation.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="VUI.Animation.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="VUI.Animation.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="VUI.Animation.PopDownMenu" />
+
+    <style name="VUI.Animation.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="VUI.Animation.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="VUI.Animation.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="VUI.Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@color/vui_config_color_transparent</item>
+        <item name="android:windowNoTitle">true</item><!-- 不用window title，使用自己的layout来做title -->
+        <!-- <item name="android:windowTitleStyle">@style/dialog_title</item> --><!-- 不用设置windowStyleStyle，因为windowNoTitle=true -->
+        <item name="android:windowIsFloating">true</item><!-- 在中间弹框、背后有遮罩的效果 -->
+        <item name="android:minWidth">280dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+</resources>

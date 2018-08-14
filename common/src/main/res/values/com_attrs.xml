@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeiCiView">
+        <attr name="radius" format="dimension" />
+        <attr name="background"/>
+        <attr name="background_color" format="color"/>
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="reference|color" />
+        <attr name="ripple_color" format="reference|color" />
+        <attr name="radius_l_u" format="dimension" />
+        <attr name="radius_l_d" format="dimension" />
+        <attr name="radius_r_u" format="dimension" />
+        <attr name="radius_r_d" format="dimension" />
+    </declare-styleable>
+
+    <attr name="visible_tab_count" format="integer" />
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visible_tab_count" />
+    </declare-styleable>
+    <declare-styleable name="BannerLayoutStyle">
+        <attr name="selectedIndicatorColor" format="color|reference" />
+        <attr name="unSelectedIndicatorColor" format="color|reference" />
+        <attr name="indicatorShape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+
+        <attr name="selectedIndicatorHeight" format="dimension|reference" />
+        <attr name="selectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="unSelectedIndicatorHeight" format="dimension|reference" />
+        <attr name="unSelectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="indicatorPosition" format="enum">
+            <enum name="centerBottom" value="0" />
+            <enum name="rightBottom" value="1" />
+            <enum name="leftBottom" value="2" />
+            <enum name="centerTop" value="3" />
+            <enum name="rightTop" value="4" />
+            <enum name="leftTop" value="5" />
+        </attr>
+
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="indicatorMargin" format="dimension|reference" />
+        <attr name="autoPlayDuration" format="integer|reference" />
+        <attr name="scrollDuration" format="integer|reference" />
+        <attr name="isAutoPlay" format="boolean" />
+        <attr name="defaultImage" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <attr name="item_padding" format="dimension" />
+        <attr name="visible_items"  format="integer"/>
+        <attr name="cyclic" format="boolean" />
+        <attr name="current_item" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberPickerView">
+        <attr name="numberColorNormal" format="reference|color"/>
+        <attr name="numberColorSelected" format="reference|color"/>
+        <attr name="numberTextSize" format="reference|dimension"/>
+        <attr name="numberPageSize" format="reference|integer"/>
+        <attr name="minValue" format="reference|integer"/>
+        <attr name="maxValue" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandIconView">
+        <attr name="eiv_roundedCorners" format="boolean"/>
+        <attr name="eiv_switchColor" format="boolean"/>
+        <attr name="eiv_color" format="color"/>
+        <attr name="eiv_colorMore" format="color"/>
+        <attr name="eiv_colorLess" format="color"/>
+        <attr name="eiv_colorIntermediate" format="color"/>
+        <attr name="eiv_animationDuration" format="integer"/>
+        <attr name="eiv_padding" format="dimension"/>
+        <attr name="eiv_width" format="dimension"/>
+        <attr name="eiv_height" format="dimension"/>
+        <attr name="eiv_text" format="string"/>
+        <attr name="eiv_text_size" format="dimension"/>
+        <attr name="eiv_padding_left" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="UserSettingItem">
+        <attr name="setting_icon" format="reference" />
+        <attr name="setting_text" format="string" />
+        <attr name="icon_width" format="dimension" />
+        <attr name="icon_height" format="dimension" />
+        <attr name="setting_divider" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loadinglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/loading"
+            android:layout_width="?attr/vui_info_width"
+            android:layout_height="?attr/vui_info_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/dialog_vui_loading" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="正在加载"
+            android:textColor="?attr/vui_load_text_color"
+            android:textSize="?attr/vui_load_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/failure_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/failure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/vui_info_text_color"
+            android:textSize="?attr/vui_info_text_size" android:text="加载失败" />
+
+        <com.android.weici.common.widget.WButton
+            android:id="@+id/reply"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            app:radius="20dp"
+            app:stroke_color="@color/vui_config_color_white"
+            android:text="app"
+            app:stroke_width="1dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

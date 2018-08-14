@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/vui_config_color_50_pure_black"
+        android:gravity="center"
+        android:text="全部"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <com.android.weici.common.widget.ExpandIconView
+        android:id="@+id/left_arrow"
+        style="@style/ExpandTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/text"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>
